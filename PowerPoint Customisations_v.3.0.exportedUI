@@ -1,0 +1,111 @@
+<mso:cmd app="PowerPoint" dt="1" />
+<mso:customUI xmlns:mso="http://schemas.microsoft.com/office/2009/07/customui">
+    <mso:ribbon>
+        <mso:qat>
+            <mso:sharedControls>
+                <mso:control idQ="mso:AutoSaveSwitch" visible="true" />
+                <mso:control idQ="mso:FileNewDefault" visible="false" />
+                <mso:control idQ="mso:FileOpenUsingBackstage" visible="false" />
+                <mso:control idQ="mso:FileSave" visible="true" />
+                <mso:control idQ="mso:FileSendAsAttachment" visible="false" />
+                <mso:control idQ="mso:FilePrintQuick" visible="false" />
+                <mso:control idQ="mso:PrintPreviewAndPrint" visible="false" />
+                <mso:control idQ="mso:Spelling" visible="false" />
+                <mso:control idQ="mso:Undo" visible="true" />
+                <mso:control idQ="mso:RedoOrRepeat" visible="true" />
+                <mso:control idQ="mso:SlideShowFromBeginning" visible="true" />
+                <mso:control idQ="mso:PointerModeOptions" visible="false" />
+                <mso:control idQ="mso:IndentIncrease" visible="true" />
+                <mso:control idQ="mso:AlignRight" visible="true" />
+            </mso:sharedControls>
+        </mso:qat>
+        <mso:tabs>
+            <mso:tab id="mso_c1.115346A" label="TS_XX" insertBeforeQ="mso:TabHome">
+                <mso:group id="mso_c2.115346A" label="Font and Paragraph" autoScale="false">
+                    <mso:box id="First Section" boxStyle="vertical">
+                        <mso:control idQ="mso:Spelling" label=" " imageMso="Spelling" visible="true" />
+                        <mso:control idQ="mso:FormatPainter" label=" " imageMso="FormatPainter" visible="true" />
+                        <mso:control idQ="mso:ClearFormatting" label=" " visible="true" />
+                    </mso:box>
+                    <mso:separator id="separator1" />
+                    <mso:box id="topRow" boxStyle="horizontal">
+                        <mso:control idQ="mso:Font" label=" " imageMso="Font" visible="true" />
+                        <mso:control idQ="mso:FontSize" label=" " imageMso="FontSize" visible="true" />
+                        <mso:gallery idQ="mso:FontColorPicker" label=" " imageMso="FontColorPicker" showInRibbon="false" visible="true" />
+                    </mso:box>
+                    <mso:box id="middleRow" boxStyle="horizontal">
+                        <mso:control idQ="mso:Bold" label=" " imageMso="Bold" visible="true" />
+                        <mso:control idQ="mso:AlignLeft" label=" " imageMso="AlignLeft" visible="true" />
+                        <mso:control idQ="mso:AlignCenter" label=" " imageMso="AlignCenter" visible="true" />
+                        <mso:control idQ="mso:AlignRight" label=" " imageMso="AlignRight" visible="true" />
+                        <mso:control idQ="mso:AlignJustify" label=" " imageMso="AlignJustify" visible="true" />
+                        <mso:control idQ="mso:IndentDecrease" label=" " imageMso="IndentDecrease" visible="true" />
+                        <mso:control idQ="mso:IndentIncrease" label=" " imageMso="IndentIncrease" visible="true" />
+                    </mso:box>
+                    <mso:box id="bottomRow" boxStyle="horizontal">
+                        <mso:control idQ="mso:FontSizeIncrease" label=" " visible="true" />
+                        <mso:control idQ="mso:FontSizeDecrease" label=" " visible="true" />
+                        <mso:gallery idQ="mso:BulletsGallery" label=" " imageMso="BulletsGallery" showInRibbon="false" visible="true" />
+                        <mso:gallery idQ="mso:NumberingGallery" label=" " imageMso="NumberingGallery" showInRibbon="false" visible="true" />
+                        <mso:control idQ="mso:PowerPointParagraphDialog" label=" " imageMso="ParagraphDialog" visible="true" />
+                        <mso:gallery idQ="mso:CharacterSpacingGallery" label=" " imageMso="CharacterSpacingGallery" showInRibbon="false" visible="true" />
+                    </mso:box>
+                    <mso:separator id="separator2" />
+                    <mso:box id="Third Section" boxStyle="vertical">
+                        <mso:control idQ="mso:TextDirectionMoreOptionsDialog" label=" " imageMso="TextDirectionMoreOptionsDialog" visible="true" />
+                        <mso:control idQ="mso:TextAlignMoreOptionsDialog" label=" " imageMso="TextAlignMoreOptionsDialog" visible="true" />
+                        <mso:gallery idQ="mso:LineSpacingGalleryPowerPoint" label=" " imageMso="LineSpacingGalleryPowerPoint" showInRibbon="false" visible="true" />
+                    </mso:box>
+                </mso:group>
+                <mso:group id="mso_c1.7F7AD3" label="Table" autoScale="false">
+                    <mso:gallery idQ="mso:TableInsertGallery" size="large" label="Add/Format" imageMso="TableInsertGallery" showInRibbon="false" visible="true" />
+                    <mso:separator id="separator3" />
+                    <mso:control idQ="mso:TableStructureFirstRowToggleButton" label=" " visible="true" />
+                    <mso:control idQ="mso:TableStructureFirstColToggleButton" label=" " visible="true" />
+                    <mso:gallery idQ="mso:TableStylesGallery" label=" " showInRibbon="false" visible="true" />
+                </mso:group>
+                <mso:group id="mso_c1.9C64ED" label="Elements" autoScale="false">
+                    <mso:box id="toprow" boxStyle="horizontal">
+                        <mso:gallery idQ="mso:GalleryAllShapesAndTextboxes" label="Add Shape" showInRibbon="false" visible="true" />
+                    </mso:box>
+                    <mso:box id="middlerow" boxStyle="horizontal">
+                        <mso:gallery idQ="mso:ShapeChangeShapeGallery" label="Change" showInRibbon="false" visible="true" />
+                    </mso:box>
+                    <mso:box id="bottomrow" boxStyle="horizontal">
+                        <mso:gallery idQ="mso:ShapeFillColorPicker" label=" " showInRibbon="false" visible="true" />
+                        <mso:gallery idQ="mso:OutlineColorPicker" label=" " showInRibbon="false" visible="true" />
+                    </mso:box>
+                </mso:group>
+                <mso:group id="mso_c1.32BAA2" label="Layout" autoScale="false">
+                    <mso:gallery idQ="mso:SlideNewGalleryInsert" label="Portada" showInRibbon="false" visible="true" />
+                    <mso:control idQ="mso:FontColorMoreColorsDialogPowerPoint" label="Palette" visible="true" />
+                    <mso:gallery idQ="mso:ThemeColorsGallery" label="Colors" showInRibbon="false" visible="true" />
+                    <mso:separator id="separator4" />
+                    <mso:control idQ="mso:ViewSlideView" label="Layout" visible="true" />
+                    <mso:control idQ="mso:SlideReset" visible="true" />
+                    <mso:gallery idQ="mso:PowerPointPageSetup" label="Size" showInRibbon="false" visible="true" />
+                    <mso:separator id="separator5" />
+                    <mso:control idQ="mso:ObjectsGroup" label=" " visible="true" />
+                    <mso:control idQ="mso:ObjectsUngroup" label=" " visible="true" />
+                    <mso:control idQ="mso:ObjectRotateLeft90" label=" " visible="true" />
+                    <mso:control idQ="mso:ObjectBringToFront" label=" " visible="true" />
+                    <mso:control idQ="mso:ObjectSendToBack" label=" " visible="true" />
+                    <mso:control idQ="mso:ObjectRotateRight90" label=" " visible="true" />
+                    <mso:separator id="separator6" />
+                    <mso:control idQ="mso:ObjectSizeAndPositionDialog" label=" " visible="true" />
+                    <mso:button id="CopySizeButton" label=" " onAction="CopySize" imageMso="SmartArtLargerShape" visible="true" size="normal" />
+                    <mso:separator id="separator7" />
+                    <mso:control idQ="mso:ObjectsAlignLeftSmart" label=" " visible="true" />
+                    <mso:control idQ="mso:ObjectsAlignCenterHorizontalSmart" label=" " visible="true" />
+                    <mso:control idQ="mso:ObjectsAlignRightSmart" label=" " visible="true" />
+                    <mso:control idQ="mso:ObjectsAlignTopSmart" label=" " visible="true" />
+                    <mso:control idQ="mso:ObjectsAlignMiddleVerticalSmart" label=" " visible="true" />
+                    <mso:control idQ="mso:ObjectsAlignBottomSmart" label=" " visible="true" />
+                    <mso:control idQ="mso:AlignDistributeHorizontally" label=" " visible="true" />
+                    <mso:control idQ="mso:AlignDistributeVertically" label=" " visible="true" />
+                    <mso:button id="SwapButton" label=" " onAction="SwapPositions" imageMso="SmartArtResetShape" visible="true" />
+                </mso:group>
+            </mso:tab>
+        </mso:tabs>
+    </mso:ribbon>
+</mso:customUI>
